@@ -1,0 +1,1 @@
+# hassamaly-auto
