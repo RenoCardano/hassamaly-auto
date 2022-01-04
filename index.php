@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -19,7 +19,7 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/openhours.css" rel="stylesheet" />
          <!-- Sweet alert library-->
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        
        
     </head>
 
@@ -56,10 +56,7 @@
                                             <div class="dropdown-item">
                                                 <input class="form-control" id="inputPassword" name="inputPassword" type="password" placeholder="Mot de passe" />
                                             </div>
-                                       <!---     <div class="dropdown-item">
-                                                <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
-                                                <label class="form-check-label" for="inputRememberPassword">Enregistrer le mot de passe</label>
-                                            </div>     --->
+                                  
                                          
                                             <div class="dropdown-item">
                                            <!---      <a class="small" href="password.html"> Mot de passe oublié ?</a>  -->
@@ -288,107 +285,9 @@
             </div>
         </div>
         -->
-        
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase"> Contactez-nous !</h2>
-                    <h3 class="section-subheading text-muted">Prenez contact avec nous pour plus d'information.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Votre Nom *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Entrez votre nom ici !</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Votre Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Entrez votre email ici!</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email non valide</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Votre Téléphone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">Votre numéros de téléphone est néccessaire!</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Votre Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">Un message est néccessaire!</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Votre message à bien été envoyé!</div>
-                            Je dois activer la gestion des emails
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erreur pendant l'envoi!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-warning btn-xl text-uppercase" id="submitButton" type="submit">Envoyer votre message</button></div>
-                </form>
-            </div>
-        </section>
-
-   <!-- Login
-        
-        <section class="page-section" id="login">
-          
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase"> LOGIN </h2>
-                    <h3 class="subheading text-muted" > </h3> Connectez-vous à votre compte </h3>
-                </div>
-                <form id="login_section" action="dashboard/index.html">
-                    <div class="align-items-center text-center">
-                            <div class="form-group"> 
-                                <br>
-                                Login input
-                                <input class="col-xs-4" id="login" type="email" placeholder="Votre Login (email) *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Entrez votre email ici !</div>
-                            </div><br>
-                            <div class="form-group">
-                                Password  input
-                                <input class="col-xs-4 " id="password" type="text" placeholder="Votre mot de passe *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">Entrez votre mot de passe ici!</div>
-                            </div>
-                            <br>
-                
-                    <div class="text-center"><button class="btn btn-info btn-xl text-uppercase" id="submitButton" href="#dashboard" type="submit"> Valider </button></div>
-                   
-                    </div>
-
-                </form>
-            </div>
+  
 
 
-
-        </section>
-    -->
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
@@ -526,17 +425,7 @@
         </div>
        
        
-     
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
+    
         
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
