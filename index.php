@@ -1,12 +1,4 @@
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-<?php 
-require('dashboard/sql/config.php');
-require('dashboard/securisation.php');
-require('dashboard/Alerte/alerte.php');
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -33,8 +25,6 @@ require('dashboard/Alerte/alerte.php');
 
     <body id="page-top">
 
-    <!-- login gateway --> 
-    <?php require('connexion/connexion.php'); ?>
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-blue fixed-top" id="mainNav">
@@ -558,11 +548,4 @@ require('dashboard/Alerte/alerte.php');
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
-    </body>
 </html>
